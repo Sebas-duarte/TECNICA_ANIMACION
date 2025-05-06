@@ -1,0 +1,53 @@
+/* Estilo general del cuerpo */
+body {
+    background-color: #6cb3f1; /* Color de fondo */
+    font-family: Arial, sans-serif; /* Fuente */
+    text-align: center; /* Centrar texto */
+    padding: 20px; /* Espaciado interno */
+}
+
+/* Estilo para el párrafo */
+p {
+    font-size: 20px; /* Tamaño de fuente */
+    color: #333; /* Color del texto */
+}
+
+/* Estilo para el input de texto */
+input[type="text"] {
+    padding: 10px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de fuente */
+    border: 2px solid #007BFF; /* Borde */
+    border-radius: 5px; /* Bordes redondeados */
+    margin: 10px 0; /* Margen superior e inferior */
+}
+
+/* Estilo para el botón */
+button {
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de fuente */
+    background-color: #007BFF; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar cursor al pasar el mouse */
+}
+
+/* Efecto al pasar el mouse sobre el botón */
+button:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el mouse */
+}
+
+/* Estilo para el div de saludo */
+#saludo {
+    margin-top: 20px; /* Margen superior */
+    font-size: 24px; /* Tamaño de fuente */
+    color: #28a745; /* Color del texto */
+}
+
+/* Estilo para la imagen */
+#dibujo {
+    display: block; /* Cambiar a bloque para centrar */
+    margin: 20px auto; /* Margen superior e inferior, auto para centrar horizontalmente */
+    max-width: 100%; /* Asegurarse de que no exceda el ancho de la pantalla */
+    height: auto; /* Mantener la proporción de la imagen */
+}
