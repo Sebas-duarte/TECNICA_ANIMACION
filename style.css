@@ -1,0 +1,53 @@
+
+body {
+    background-color: #6cb3f1; 
+    font-family: Arial, sans-serif; 
+    text-align: center; 
+    padding: 20px; 
+}
+
+
+p {
+    font-size: 20px; 
+    color: #333; 
+}
+
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px; 
+    border: 2px solid #007BFF; 
+    border-radius: 5px; 
+    margin: 10px 0; 
+}
+
+
+button {
+    padding: 10px 20px; 
+    font-size: 16px; 
+    background-color: #007BFF; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+
+button:hover {
+    background-color: #0056b3; 
+}
+
+
+#saludo {
+    margin-top: 20px; 
+    font-size: 24px; 
+    color: #28a745; 
+}
+
+
+#dibujo {
+    display: block; 
+    margin: 20px auto; 
+    max-width: 100%; 
+    height: auto; 
+}
